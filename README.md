@@ -11,7 +11,6 @@ Descripcion API BackEnd:
 Al momento de desarrollar se tenian las siguientes versiones:
 Java 1.8
 SpringBoot 2.2.1.RELEASE
-Para iniciar el API ejecutar ./mvnw clean install para generar el JAR en la carpeta /spring-boot-backend-apirest, luego ir a la carpeta /spring-boot-backend-apirest\target y ejecutar java -jar spring-boot-backend-apirest-0.0.1-SNAPSHOT.jar
 
 Ruta base /users
 Puerto: 8080
