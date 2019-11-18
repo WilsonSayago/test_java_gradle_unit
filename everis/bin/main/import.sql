@@ -1,0 +1,5 @@
+INSERT INTO users (id, created, modified, isactive, version, name, email, password, last_login) VALUES ('38f2083807de493e990da9c49881cadd', {ts '2019-11-17T22:23:14.854'}, {ts '2019-11-17T22:23:14.854'}, true, 0, 'wilson', 'wilson@gmail.com', 'Ad12', {ts '2019-11-17T22:23:14.854'});
+INSERT INTO users (id, created, modified, isactive, version, name, email, password, last_login) VALUES ('38f2083807de493e990da9c49881cada', {ts '2019-11-17T22:23:14.854'}, {ts '2019-11-17T22:23:14.854'}, false, 0, 'jose', 'jose@gmail.com', 'Ad12', {ts '2019-11-17T22:23:14.854'});
+
+INSERT INTO phones (id, created, modified, isactive, version, number, citycode, contrycode, user_id) VALUES ('38f2083807de493e990da9c49881cade', {ts '2019-11-17T22:23:14.854'}, {ts '2019-11-17T22:23:14.854'}, true, 0, '12345678', '1', '98', '38f2083807de493e990da9c49881cadd')
+INSERT INTO phones (id, created, modified, isactive, version, number, citycode, contrycode, user_id) VALUES ('38f2083807de493e990da9c49881cadd', {ts '2019-11-17T22:23:14.854'}, {ts '2019-11-17T22:23:14.854'}, true, 0, '987654321', '1', '98', '38f2083807de493e990da9c49881cada')
